@@ -233,19 +233,19 @@
 <wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
-<pin name="1-SDO/SA0" x="10.16" y="-7.62" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
-<pin name="2-SDX" x="10.16" y="-5.08" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
-<pin name="3-SCX" x="10.16" y="-2.54" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
-<pin name="4-INT1" x="10.16" y="0" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
-<pin name="5-VDDIO" x="10.16" y="2.54" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
-<pin name="6-GND1" x="10.16" y="5.08" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
-<pin name="8-VDD" x="-10.16" y="-7.62" length="short" nameOffset="0" nameSize="325120"/>
-<pin name="9-INT2" x="-10.16" y="-5.08" length="short" nameOffset="0" nameSize="325120"/>
-<pin name="10-OCS_AUX" x="-10.16" y="-2.54" length="short" nameOffset="0" nameSize="325120"/>
-<pin name="11-SDO_AUX" x="-10.16" y="0" length="short" nameOffset="0" nameSize="325120"/>
-<pin name="12-CS" x="-10.16" y="2.54" length="short" nameOffset="0" nameSize="325120"/>
-<pin name="13-SCL" x="-10.16" y="5.08" length="short" nameOffset="0" nameSize="325120"/>
-<pin name="14-SDA" x="-10.16" y="7.62" length="short" nameOffset="0" nameSize="325120"/>
+<pin name="SDO/SA0" x="10.16" y="-7.62" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
+<pin name="SDX" x="10.16" y="-5.08" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
+<pin name="SCX" x="10.16" y="-2.54" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
+<pin name="INT1" x="10.16" y="0" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
+<pin name="VDDIO" x="10.16" y="2.54" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
+<pin name="GND" x="10.16" y="5.08" length="short" rot="R180" nameOffset="0" nameSize="325120"/>
+<pin name="VDD" x="-10.16" y="-7.62" length="short" nameOffset="0" nameSize="325120"/>
+<pin name="INT2" x="-10.16" y="-5.08" length="short" nameOffset="0" nameSize="325120"/>
+<pin name="OCS_AUX" x="-10.16" y="-2.54" length="short" nameOffset="0" nameSize="325120"/>
+<pin name="SDO_AUX" x="-10.16" y="0" length="short" nameOffset="0" nameSize="325120"/>
+<pin name="CS" x="-10.16" y="2.54" length="short" nameOffset="0" nameSize="325120"/>
+<pin name="SCL" x="-10.16" y="5.08" length="short" nameOffset="0" nameSize="325120"/>
+<pin name="SDA" x="-10.16" y="7.62" length="short" nameOffset="0" nameSize="325120"/>
 <text x="0" y="12.7" size="2.286" layer="95" font="vector" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
@@ -324,19 +324,19 @@
 <devices>
 <device name="LSM6DSOXTR-6AXIS" package="LSM6DSO_IMU">
 <connects>
-<connect gate="G$1" pin="1-SDO/SA0" pad="1"/>
-<connect gate="G$1" pin="10-OCS_AUX" pad="10"/>
-<connect gate="G$1" pin="11-SDO_AUX" pad="11"/>
-<connect gate="G$1" pin="12-CS" pad="12"/>
-<connect gate="G$1" pin="13-SCL" pad="13"/>
-<connect gate="G$1" pin="14-SDA" pad="14"/>
-<connect gate="G$1" pin="2-SDX" pad="2"/>
-<connect gate="G$1" pin="3-SCX" pad="3"/>
-<connect gate="G$1" pin="4-INT1" pad="4"/>
-<connect gate="G$1" pin="5-VDDIO" pad="5"/>
-<connect gate="G$1" pin="6-GND1" pad="6 7"/>
-<connect gate="G$1" pin="8-VDD" pad="8"/>
-<connect gate="G$1" pin="9-INT2" pad="9"/>
+<connect gate="G$1" pin="CS" pad="12"/>
+<connect gate="G$1" pin="GND" pad="6 7"/>
+<connect gate="G$1" pin="INT1" pad="4"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="OCS_AUX" pad="10"/>
+<connect gate="G$1" pin="SCL" pad="13"/>
+<connect gate="G$1" pin="SCX" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="14"/>
+<connect gate="G$1" pin="SDO/SA0" pad="1"/>
+<connect gate="G$1" pin="SDO_AUX" pad="11"/>
+<connect gate="G$1" pin="SDX" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
